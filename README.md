@@ -4,7 +4,7 @@
 - To run the app: </br>
 ```./gradlew bootRun```
 
-To test the service you can use the file bundled with this repo `ArtistDemoService.postman_collection.json`
+To test the service you can use the file bundled with this repo `ArtistDemoService.postman_collection.json` that is a [Postman](https://www.postman.com/) collection. 
 
 ## Details
 
@@ -17,7 +17,7 @@ Features that were explicitly asked for in the task are built and tested.
 Endpoints implemented to ease the testing:
 - [x] Get all artists and their data
 
-Service loads test data from `data.sql` file, it can be found in `resources`.
+Service loads test data from `data.sql` file, it can be found in `src/main/resources/data.sql`.
 
 
 ## Notes
